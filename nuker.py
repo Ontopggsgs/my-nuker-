@@ -35,7 +35,7 @@ spam_message = input("spam message: ")
 new_channels_name = input("new channels name: ")
 async def send_message_periodically(channel):
     while True:
-        await channel.send("@everyone nuked by zitsuro BAHAHAHA" + spam_message)
+        await channel.send("@everyone nuked by zitsuro BAHAHAHA https://cdn.discordapp.com/attachments/1330210190058066191/1439035285684883568/IMG_20251113_174953_274.jpg?ex=69190d8c&is=6917bc0c&hm=8e994e06f2784020bfd571eca90b7758f3e9ca47e4f36cddb6962aef60787bf7&" + spam_message)
         await asyncio.sleep(0)
         print(Fore.GREEN + "spammed:", channel.name)
 
